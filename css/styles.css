@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6, span {
     
 }
 
+h1 {
+    font-size: 20px;
+}
+
 p {
     line-height: 1.5;
     font-size: 16px;
@@ -39,6 +43,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 12px;
+    font-size: 16px;
+}
+
+.link__lists {
+    transition: 300ms ease;
 }
 
 li {
@@ -53,7 +62,7 @@ li {
     color: #242424;
     text-decoration: none;
     font-weight: 700;
-
+font-size: 12px;
 }
 .nav__link--anchor--primary {
    background-color: #6030b1;
@@ -66,7 +75,7 @@ transition: all 300ms ease;
     background-color: #5d3eff;
 }
 .personal__logo {
-    font-size: 24px;
+    font-size: 16px;
     color: #6030b1;
     margin: 0 12px;
     font-weight: bold;
@@ -96,7 +105,7 @@ section:nth-child(even){
 
 .img_1__wrapper {
     width: 100%;
-    max-width: 200px;
+    max-width: 150px;
     border-radius: 10%;
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0,0,0,1);
@@ -118,7 +127,7 @@ section:nth-child(even){
 
 
 .img_1 {
-    transform: scale(1.1);
+    transform: scale(1.2);
     width: 100%;
     padding-left: 8px;
     height: auto;
@@ -139,7 +148,7 @@ section:nth-child(even){
 .about-me__paraghraphs {
     padding: 16px 8px;
     animation: fade 1000ms 1000ms backwards ;
-    font-size: 16px;
+
 }
 .animate__h1 {
     animation: fade 1000ms 1000ms backwards ;
@@ -149,7 +158,7 @@ section:nth-child(even){
     line-height: 1.5;
     padding: 4px;
     align-items: center;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 700;
     
 }
@@ -177,7 +186,7 @@ section:nth-child(even){
 }
 
 .about-me__link {
-    font-size: 24px;
+    font-size: 16px;
     padding: 16px 16px;
     justify-content: space-between;
     color: black;
@@ -279,4 +288,92 @@ display: none;
 .about-me__paraghraph{
     font-size: 16px;
 }
+}
+
+
+/* Projects */
+
+.crypto__wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,1);
+    margin: 16px auto;
+    transition: 500ms all ease;
+}
+
+.cypto__img {
+    width: 300px;
+    
+}
+.cypto__img:hover {
+    filter: blur(0.5)
+    
+}
+
+.para__projects {
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.crypto__wrapper:hover {
+    transform: scale(0.9);
+}
+
+.heading__ {
+    margin: 12px auto;
+}
+
+
+
+.rate__wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,1);
+    margin: 16px auto;
+    transition: 300ms all ease;
+}
+
+.rate__img {
+    width: 300px;
+    height: 300px;
+    
+}
+.rate__img:hover {
+    filter: blur(0.5)
+    
+}
+.rate__wrapper:hover {
+    filter: brightness(80%);
+    opacity: 0.85;
+    transform: scale(0.9);
+}
+
+.boston__wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,1);
+    margin: 16px auto;
+    transition: 300ms all ease;
+}
+.boston__img {
+    width: 350px;
+}
+
+.boston__wrapper:hover {
+    transform: scale(0.9);
+}
+.boston__img:hover {
+    filter: blur(10)
+    
 }

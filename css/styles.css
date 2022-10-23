@@ -377,3 +377,31 @@ display: none;
     filter: blur(10)
     
 }
+
+.leet__wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,1);
+    margin: 16px auto;
+    transition: 300ms all ease;
+}
+
+.leet__wrapper:hover {
+    filter: brightness(80%);
+    opacity: 0.85;
+    transform: scale(0.9);
+}
+
+.leet__img:hover {
+    filter: blur(3)
+    
+}
+
+.leet__img {
+    width: 300px;
+    height: 300px;
+    
+}
